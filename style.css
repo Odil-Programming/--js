@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('https://asset.gecdesigns.com/img/wallpapers/beautiful-fantasy-wallpaper-ultra-hd-wallpaper-4k-sr10012418-1706506236698-cover.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    gap: 20px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.userInput {
+    border: none;
+    border-radius: 10px;
+    background: rgb(128, 128, 128,0.438 );
+    height: 40px;
+    outline: none;
+    width: 200px;
+}
+
+.passwordInput{
+    border: none;
+    border-radius: 10px;
+    background: rgb(128, 128, 128,0.438 );
+    height: 40px;
+    outline: none;
+    width: 200px;
+}
+
+.userInput:hover{
+    background-color: rgb(0, 255, 200);
+    width: 100px;
+    transition: all 1s;
+}
+
+.passwordInput:hover{
+    background-color: rgb(0, 255, 200);
+    width: 100px;
+    transition: all 1s;
+}
+
+.loginBtn:hover{
+    background-color: rgb(0, 255, 200);
+    width: 100px;
+    transition: all 1s;
+}
+
+.userInput::placeholder{
+    padding-left: 10px;
+}
+
+.passwordInput::placeholder{
+    padding-left: 10px;
+}
+
+.loginBtn{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10px;
+}
